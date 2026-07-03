@@ -17,7 +17,9 @@
     <meta property="og:type" content="website">
 
     <link rel="icon" type="image/png" href="img/favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -36,8 +38,8 @@
     </header>
 
     <section id="inicio" class="hero animate-on-scroll">
-        <video autoplay loop muted playsinline class="bg-video">
-            <source src="/video/twentyone.mov" type="video/mp4">
+        <video autoplay loop muted playsinline poster="img/poster-topo.png" class="bg-video">
+            <source src="/video/TwentyOne.MOV" type="video/mp4">
         </video>
         <div class="hero-overlay"></div>
         <div class="hero-text">
@@ -54,9 +56,9 @@
     </section>
 
     <section id="sobre" class="animate-on-scroll">
-        <!-- O vídeo de fundo continua igual -->
-        <video autoplay loop muted playsinline class="bg-video">
-            <source src="video/Video2.mp4" type="video/mp4">
+      
+        <video autoplay loop muted playsinline poster="img/flambada-poster.png" class="bg-video">
+            <source src="video/flambada.mp4" type="video/mp4">
         </video>
         <div class="video-overlay"></div>
 
@@ -131,8 +133,8 @@
 
     <section id="servicos" class="animate-on-scroll">
 
-         <video autoplay loop muted playsinline class="bg-video">
-            <source src="Video/kendrick.mp4" type="video/mp4">
+         <video autoplay loop muted playsinline poster="img/video2-poster.png" class="bg-video">
+            <source src="video/Video2.mp4" type="video/mp4">
         </video>
         <div class="video-overlay"></div>
 
@@ -143,7 +145,7 @@
             <!-- Card 1: Web Design -->
             <div class="servico-box expandable-card">
                 <div class="servico-detalhe"></div>
-                <h3>&lt; Web Design /&gt;</h3>
+                <h3>&lt;/ Web Design &gt;</h3>
                 <p>Desenvolvimento de landing pages, portfólios e sites institucionais escaláveis com foco absoluto em conversão e usabilidade.</p>
                 
                 <!-- Conteúdo Expansível -->
@@ -188,8 +190,7 @@
                     <h4>Tecnologias:</h4>
                     <ul class="skill-list">
                         <li>MySQL & SQL Server</li>
-                        <li>MongoDB</li>
-                        <li>Integração via Node.js</li>
+                        
                     </ul>
                 </div>
                 <div class="expand-hint">Passe o mouse para inspecionar //</div>
@@ -207,7 +208,7 @@
                     <ul class="skill-list">
                         <li>Instagram & TikTok</li>
                         <li>WhatsApp Business API</li>
-                        <li>Comunicação & Soft Skills</li>
+                       
                     </ul>
                 </div>
                 <div class="expand-hint">Passe o mouse para inspecionar //</div>
@@ -218,7 +219,7 @@
 
     <section id="portfolio" class="animate-on-scroll">
 
-         <video autoplay loop muted playsinline class="bg-video">
+         <video autoplay loop muted playsinline poster="img/kendrick2-poster.png" class="bg-video">
             <source src="video/Kendrick2.mp4" type="video/mp4">
         </video>
 
@@ -235,35 +236,86 @@
             </div>
             <div class="card">
                 <div class="card-scanner"></div>
-                <h3>APP para controle de estoque</h3>
+                <h3>APP para controle de óleo</h3>
                 <p>Aplicativo desenvolvido para facilitar o controle da troca de óleo de fritadeiras para restaurantes.</p>
                 <a href="https://github.com/SFeliix/APPThai" class="card-link">Ver Código <span>//</span></a>
             </div>
             <div class="card">
                 <div class="card-scanner"></div>
                 <h3>Meu proprio Site =] </h3>
-                <p>Interface responsiva focada na experiência fluida de compra e apresentação de produtos.</p>
-                <a href="#" class="card-link">Ver Código <span>//</span></a>
+                <p>Site pessoal desenvolvido para apresentar meu portfólio e projetos.</p>
+                <a href="https://github.com/SFeliix/meuPortfolio" class="card-link">Ver Código <span>//</span></a>
             </div>
         </div>
     </section>
 
     <section id="fotografia" class="animate-on-scroll">
-        <h2>Fotografia</h2>
-        <p class="sub-section">A estética do mundo real capturada através das lentes.</p>
-        <div class="photo-gallery">
-            <div class="photo-item" style="background-image: url('img/Nick.JPG')"></div>
-            <div class="photo-item" style="background-image: url('img/BarBrahmaNoite.JPG')"></div>
-            <div class="photo-item" style="background-image: url('img/Pulga.JPG')"></div>
-            <div class="photo-item" style="background-image: url('img/TristeJanela.JPG')"></div>
-            <div class="photo-item" style="background-image: url('img/SPRepublica.JPG')"></div>
-            <div class="photo-item" style="background-image: url('img/Nos.JPG')"></div>
-            <div class="photo-item" style="background-image: url('img/IgrejaSanta.JPG')"></div>
-            <div class="photo-item" style="background-image: url('img/PurpleVibes.JPG')"></div>
-            <div class="photo-item" style="background-image: url('img/Baterista.jpg')"></div>
-            <div class="photo-item" style="background-image: url('img/TwentyOne2.jpg')"></div>
+    <h2>Fotografia</h2>
+    <p class="sub-section">A estética do mundo real capturada através das minhas lentes.</p>
+    <div class="photo-gallery">
+        
+        <div class="photo-item">
+            <img src="img/Nick.JPG" alt="Fotografia Nick" loading="lazy">
         </div>
-    </section>
+        
+        <div class="photo-item">
+            <img src="img/BarBrahmaNoite.JPG" alt="Fotografia Bar Brahma à noite" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/Pulga.JPG" alt="Fotografia Pulga" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/TristeJanela.JPG" alt="Fotografia de uma janela" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/SPRepublica.JPG" alt="Fotografia da região da República em São Paulo" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/Nos.JPG" alt="Fotografia Nós" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/IgrejaSanta.JPG" alt="Fotografia de arquitetura de Igreja" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/PurpleVibes.jpg" alt="Fotografia com iluminação em tons de roxo" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/Baterista.jpg" alt="Fotografia de um baterista em ação" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/twentyone2.jpg" alt="Fotografia Twenty One" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/Pulga2.JPG" alt="Fotografia Pulga 2" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/thairoll.jpg" alt="Fotografia Thai Roll" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/amem.jpg" alt="Fotografia conceitual Amém" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/arcade.JPG" alt="Fotografia de fliperama arcade" loading="lazy">
+        </div>
+        
+        <div class="photo-item">
+            <img src="img/Italia.JPG" alt="Fotografia Itália" loading="lazy">
+        </div>
+
+    </div>
+</section>
 
     <footer>
         <div class="footer-content animate-on-scroll">
