@@ -15,7 +15,7 @@
     scroll-behavior: smooth;
 }
 
-/* Fundo Profissional com Grid e Brilho Radial Roxo */
+/* Fundo  Roxo */
 body {
     background-color: var(--bg-dark);
     background-image: 
@@ -102,7 +102,7 @@ h2 {
     overflow: hidden;   /* Evita que o vídeo vaze da seção */
 }
 
-/* Comportamento do Vídeo (O "Falso GIF") */
+/* Comportamento do Vídeo  Falso GIF */
 .bg-video {
     position: absolute;
     top: 0;
@@ -268,9 +268,9 @@ h2 {
     line-height: 1.6;
 }
 
-/* =======================================================
+/* 
    CARDS EXPANSÍVEIS (SERVIÇOS)
-   ======================================================= */
+    */
 
 .expandable-card {
     cursor: crosshair; /* Muda o mouse para uma mira tática */
@@ -537,9 +537,9 @@ footer {
     transform: translateY(0);
 }
 
-/* =======================================================
+/* 
    BOTÃO FLUTUANTE DO WHATSAPP (ESTILO RADAR)
-   ======================================================= */
+    */
 .whatsapp-float {
     position: fixed;
     bottom: 30px;
@@ -703,9 +703,9 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-/* =======================================================
+/* 
    RESPONSIVIDADE TÁTICA (TABLETS E SMARTPHONES)
-   ======================================================= */
+   */
 
 /* Breakpoint para Tablets e telas menores (abaixo de 992px) */
 @media (max-width: 992px) {

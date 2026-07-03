@@ -19,11 +19,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
     
-    // Inicia a digitação após um pequeno delay inicial
+    // Inicia a digitação após  delay inicial
     setTimeout(typeEffect, 400);
 
 
-    // --- 2. ANIMAR AO ROLAR A PÁGINA (SCROLL REVEAL usando Intersection Observer) ---
+    // --- 2. ANIMAR AO ROLAR A PÁGINA  ---
     const scrollElements = document.querySelectorAll(".animate-on-scroll");
 
     const elementObserver = new IntersectionObserver((entries, observer) => {
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }, {
-        threshold: 0.15 // Ativa quando 15% do elemento aparece na tela
+        threshold: 0.15 // Ativa quando 15% aparece na tela
     });
 
     scrollElements.forEach(el => {
